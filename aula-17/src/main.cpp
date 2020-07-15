@@ -1,5 +1,6 @@
 #include "Conta.hpp"
 #include "Cliente.hpp"
+#include "ClientePJ.hpp"
 #include "Agencia.hpp"
 
 
