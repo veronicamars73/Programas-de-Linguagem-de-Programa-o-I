@@ -1,7 +1,7 @@
 PROG = banco
 CC = g++
 CPPFLAGS = -O0 -std=c++11 -g -I include
-OBJS = main.o Conta.o Cliente.o Agencia.o
+OBJS = main.o Conta.o Cliente.o Agencia.o ClientePJ.o
 
 all: $(PROG)
 
@@ -16,6 +16,9 @@ Conta.o :  include/Conta.hpp
 
 Cliente.o :  include/Cliente.hpp
 	$(CC) $(CPPFLAGS) -c src/Cliente.cpp
+
+ClientePJ.o :  include/ClientePJ.hpp
+	$(CC) $(CPPFLAGS) -c src/ClientePJ.cpp
 
 Agencia.o :  include/Agencia.hpp
 	$(CC) $(CPPFLAGS) -c src/Agencia.cpp
