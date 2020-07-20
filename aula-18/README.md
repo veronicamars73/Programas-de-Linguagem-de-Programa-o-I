@@ -10,7 +10,7 @@ Compile o programa utilizando o comando `make` no terminal dentro do diretório 
 
 ## Instruções de uso
 
-O programa **banco** implementa as classes: *Cliente*, *ClientePF*, *ClientePJ*, *Conta" e *Agencia*.
+O programa **banco** implementa as classes: *Cliente*, *ClientePF*, *ClientePJ*, *Funcionario*, *Caixa*, *Gerente*, *Seguranca*, *Conta" e *Agencia*.
 - Para a execução do main execute o comando abaixo no diretório de compilação
 ``` shell
 $  ./banco
