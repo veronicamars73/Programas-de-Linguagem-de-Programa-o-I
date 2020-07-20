@@ -1,4 +1,4 @@
-# Aula 17 de LP I
+# Aula 18 de LP I
 
 Projeto criado como método de avaliação de presença para a disciplina de *Linguagem de Programação* I no período de 2020.5.
 
@@ -10,7 +10,7 @@ Compile o programa utilizando o comando `make` no terminal dentro do diretório 
 
 ## Instruções de uso
 
-O programa **banco** implementa as classes: *Cliente*, *ClientePJ*, *Conta" e *Agencia*.
+O programa **banco** implementa as classes: *Cliente*, *ClientePF*, *ClientePJ*, *Conta" e *Agencia*.
 - Para a execução do main execute o comando abaixo no diretório de compilação
 ``` shell
 $  ./banco
