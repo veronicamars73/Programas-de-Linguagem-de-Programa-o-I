@@ -4,7 +4,9 @@
 #include "ClientePF.hpp"
 #include "Agencia.hpp"
 #include "Fila.hpp"
-
+#include "Gerente.hpp"
+#include "Caixa.hpp"
+#include "Seguranca.hpp"
 
 #include <iostream>
 
@@ -83,4 +85,21 @@ int main(int argc, char* argv[]) {
     clientesPJ.remove();
     clientesPJ.remove();
     clientesPJ.isEmpty();
+
+    Gerente g("Compras");
+    g.setNome("Roberto");
+    g.setSexo("Masculino");
+    g.setIdade(23);
+    Seguranca s("Sargente");
+    s.setNome("Eliana");
+    s.setSexo("Feminino");
+    s.setIdade(32);
+    Caixa c(32);
+    c.setNome("Elliot");
+    c.setSexo("Masculino");
+    c.setIdade(58);
+
+    std::cout << g.getNome() << " " << g.getIdade() << " " << g.getSexo() << " " << g.getDepartamento() << std::endl;
+    std::cout << s.getNome() << " " << s.getIdade() << " " << s.getSexo() << " " << s.getPatente() << std::endl;
+    std::cout << c.getNome() << " " << c.getIdade() << " " << c.getSexo() << " " << c.getNumero_do_caixa() << std::endl;
 }
