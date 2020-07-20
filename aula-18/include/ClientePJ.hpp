@@ -2,14 +2,17 @@
 #define W5N_CLIENTEPJ_H
 
 #include <string>
+#include "Cliente.hpp"
 
-class ClientePJ{
-    public:
-    std::string cnpj;
-    std::string razao_social;
+class ClientePJ : public Cliente{
+    private:
+    std::string responsavel;
 
+	public:
     ClientePJ();
-    ClientePJ(std::string cnpj, std::string razao_social);
+    ClientePJ(std::string responsavel);
+    void setResponsavel(std::string responsavel);
+    std::string getResponsavel();
 };
 
 #endif
